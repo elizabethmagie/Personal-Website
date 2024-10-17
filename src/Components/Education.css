@@ -1,0 +1,145 @@
+.education-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 1200px;
+    margin: 0 auto; 
+  }
+
+  .formal-education-carousel,
+  .certifications {
+    width: 48%; 
+    min-width: 500px; 
+    overflow: hidden; 
+  }
+  
+
+  .carousel-container {
+    position: relative;
+    width: 100%; 
+    overflow: hidden; 
+    background-color: #f31c1ca1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carousel-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-screen img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-screen h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-screen p {
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+
+.carousel-button {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    background: none; 
+    border: none; 
+    color: #ccc; 
+    font-size: 24px; 
+    cursor: pointer;
+    z-index: 1;
+    padding: 0; 
+  }
+  
+
+  .carousel-button:hover {
+    color: rgb(52, 52, 52); 
+  }
+  
+  .carousel-button.right {
+    right: 10px;
+  }
+  
+ 
+  .certifications {
+    background-image: url('../Images/code.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden; 
+    position: relative; 
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, max-height 0.5s ease;
+    max-height: 100px; 
+    overflow: hidden; 
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .card.expanded {
+    max-height: 500px; 
+    transition: max-height 0.5s ease;
+  }
+  
+  .card h3 {
+    margin: 0;
+  }
+  
+  .card p {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+
+  @media (max-width: 768px) {
+    .education-container {
+      flex-direction: column;
+    }
+  
+    .formal-education-carousel, .certifications {
+      width: 100%; 
+      min-width: unset; 
+    }
+  
+    .carousel-screen img {
+      max-height: 200px;
+    }
+  
+    .carousel-screen h3 {
+      font-size: 20px;
+    }
+  
+    .carousel-screen p {
+      font-size: 14px;
+    }
+  }
+  
+  

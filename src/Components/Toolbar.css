@@ -1,0 +1,24 @@
+.toolbar {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  background-color: #48494c;
+  padding: 4px 20px;
+  border-radius: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.toolbar button {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  color: #ccc;
+}
