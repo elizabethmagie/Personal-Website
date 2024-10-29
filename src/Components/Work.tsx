@@ -65,6 +65,8 @@ export const Work: React.FC = () => {
   const [selectedJob, setSelectedJob] = useState(jobsData[0]);
 
   return (
+    <div>
+      <h2 className="text-center mb-4">Work Experience</h2>
     <div className="work-container">
       <div className="work-header">
         <FaBriefcase className="work-icon" />
@@ -96,6 +98,7 @@ export const Work: React.FC = () => {
           </ul>
         </div>
       </div>
+    </div>
     </div>
   );
 };

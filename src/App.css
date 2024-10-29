@@ -1,5 +1,18 @@
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: left;
+  background-color: #333435;
+}
+
+.toolbar-container {
+  width: 100%;
+  flex-shrink: 0;
+  min-height: 40px;
+}
+
+.content {
+  flex: 1;
 }
 
 h1 {
@@ -17,9 +30,8 @@ h2 {
   color: #fff;
 }
 
-section {
-  background-color: #333435;
-  min-height: 90vh;
+section.PWS {
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
