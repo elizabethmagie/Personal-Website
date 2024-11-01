@@ -11,7 +11,7 @@ const jobsData = [
     id: 1,
     title: 'Systems Optimization',
     subtitle: 'Data Analytics - Stanford University',
-    logo: stanford_logo, 
+    logo: stanford_logo,
     responsibilities: [
       'Analyzed and projected trends in system return water temperatures to optimize campus mechanical system energy use.',
       'Found optimal setpoints and decreased the yearly electric cost by 12%.',
@@ -67,41 +67,38 @@ export const Work: React.FC = () => {
   return (
     <div>
       <h2 className="text-center mb-4">Work Experience</h2>
-    <div className="work-container">
-      <div className="work-header">
-        <FaBriefcase className="work-icon" />
-        <h2 className="work-title">2022-2024: Mechanical Engineer @ Affiliated Engineers, Inc.</h2>
-      </div>
+      <div className="work-container">
+        <div className="work-header">
+          <FaBriefcase className="work-icon" />
+          <h2 className="work-title">2022-2024: Mechanical Engineer @ Affiliated Engineers, Inc.</h2>
+        </div>
 
-      <div className="work-content">
-        <div className="work-job-list">
-          {jobsData.map((job) => (
-            <div
-              key={job.id}
-              className={`work-job-item ${selectedJob.id === job.id ? 'selected' : ''}`}
-              onClick={() => setSelectedJob(job)}
-            >
-              <img src={job.logo} alt={`${job.title} logo`} className="work-job-logo" />
-              <div className="work-job-text">
-                <h3 className="job-title">{job.title}</h3>
-                <p className="job-subtitle">{job.subtitle}</p>
+        <div className="work-content">
+          <div className="work-job-list">
+            {jobsData.map((job) => (
+              <div
+                key={job.id}
+                className={`work-job-item ${selectedJob.id === job.id ? 'selected' : ''}`}
+                onClick={() => setSelectedJob(job)}
+              >
+                <img src={job.logo} alt={`${job.title} logo`} className="work-job-logo" />
+                <div className="work-job-text">
+                  <h3 className="job-title">{job.title}</h3>
+                  <p className="job-subtitle">{job.subtitle}</p>
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="work-job-details">
-          <ul>
-            {selectedJob.responsibilities.map((responsibility, index) => (
-              <li key={index}>{responsibility}</li>
             ))}
-          </ul>
+          </div>
+
+          <div className="work-job-details">
+            <ul>
+              {selectedJob.responsibilities.map((responsibility, index) => (
+                <li key={index}>{responsibility}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
     </div>
   );
 };
-
-export default Work;
-

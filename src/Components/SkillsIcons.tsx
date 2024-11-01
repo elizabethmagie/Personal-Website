@@ -5,7 +5,7 @@ import { SiTypescript, SiMysql, SiMicrosoftsqlserver } from 'react-icons/si';
 export const SkillsIcons: React.FC = () => {
   return (
     <div style={{ display: 'flex', gap: '20px', fontSize: '2rem' }}>
-      <div title="Python" style={{ marginLeft: '125px'}}>
+      <div title="Python" style={{ marginLeft: '125px' }}>
         <FaPython />
       </div>
       <div title="JavaScript">

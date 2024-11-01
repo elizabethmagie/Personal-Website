@@ -1,4 +1,4 @@
-import './Toolbar.css'
+import './Toolbar.css';
 import { Button, ButtonGroup } from 'react-bootstrap';
 
 export const Toolbar: React.FC = () => {

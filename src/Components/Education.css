@@ -1,4 +1,3 @@
-/* Formal education section */
 .formal-education {
   max-width: 80%;
   margin: 0 auto;
@@ -8,13 +7,11 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* Image styling */
 .carousel-image {
   max-height: 500px;
   object-fit: cover;
 }
 
-/* Gray background for carousel captions */
 .gray-background {
   background-color: #e0e0e0;
   padding: 20px;
@@ -23,7 +20,6 @@
   border-radius: 15px;
 }
 
-/* Codecademy section */
 .codecademy-section {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -50,3 +46,4 @@
 .codecademy-section .card-text {
   font-size: 16px;
 }
+

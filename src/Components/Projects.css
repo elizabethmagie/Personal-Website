@@ -1,16 +1,14 @@
-/* Projects Section Styling */
 .projects-section {
   max-width: 80%;
   margin: 0 auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* Project Card Styling */
 .project-card {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  margin-bottom: 3rem; /* Adds space between project cards */
+  margin-bottom: 3rem; 
 }
 
 .project-image-container {
@@ -25,7 +23,6 @@
   object-fit: cover;
 }
 
-/* Card Body Styling */
 .card-body {
   padding: 20px;
   color: #333;
@@ -41,7 +38,6 @@
   margin-bottom: 20px;
 }
 
-/* Button Styling */
 .btn {
   font-size: 1rem;
   padding: 10px 20px;

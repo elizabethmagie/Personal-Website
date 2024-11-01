@@ -5,7 +5,6 @@ import './SocialLinks.css';
 export const SocialLinks: React.FC = () => {
   return (
     <div style={{ display: 'flex', gap: '20px', fontSize: '1.5rem' }}>
-      {/* LinkedIn Icon */}
       <a
         href="https://www.linkedin.com/in/elizabeth-magie/"
         target="_blank"
@@ -15,8 +14,6 @@ export const SocialLinks: React.FC = () => {
       >
         <FaLinkedin />
       </a>
-
-      {/* GitHub Icon */}
       <a
         href="https://github.com/elizabethmagie"
         target="_blank"
@@ -26,8 +23,6 @@ export const SocialLinks: React.FC = () => {
       >
         <FaGithub />
       </a>
-
-      {/* Email Icon */}
       <a
         href="mailto:lizzieemagie@gmail.com"
         aria-label="Email"

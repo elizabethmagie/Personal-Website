@@ -1,20 +1,20 @@
 .toolbar-background {
   position: fixed;
-  top: 0; /* Stick to the top */
+  top: 0;
   left: 0;
-  right: 0; /* Span full width */
-  background-color: #333435; /* Same as app background */
-  z-index: 1000; /* Ensure it's on top */
-  padding-bottom: 10px; /* Add padding for fuzzy effect */
-  backdrop-filter: blur(10px); /* Create fuzzy effect */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Optional: add shadow for depth */
+  right: 0;
+  background-color: #333435;
+  z-index: 1000;
+  padding-bottom: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .toolbar {
-  position: relative; /* Change to relative for proper layout */
-  max-width: max-content; /* Adjust width to content */
-  margin: 0 auto; /* Center the toolbar */
-  background-color: #48494c; /* Toolbar color */
+  position: relative;
+  max-width: max-content;
+  margin: 0 auto;
+  background-color: #48494c;
   padding: 4px 20px;
   border-radius: 20px;
   display: flex;

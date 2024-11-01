@@ -1,15 +1,14 @@
 .icon {
-    color: white;
-    margin-right: 20px;
-    font-size: 1.5rem;
-    transition: color 0.3s ease; 
-  }
-  
-  .icon:hover {
-    color: #ccc; 
-  }
+  color: white;
+  margin-right: 20px;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
 
-  .icon:first-child {
-    margin-left: 125px;
-  }
-  
+.icon:hover {
+  color: #ccc;
+}
+
+.icon:first-child {
+  margin-left: 125px;
+}
