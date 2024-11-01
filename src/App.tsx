@@ -8,6 +8,7 @@ import { SkillsIcons } from './Components/SkillsIcons';
 import { Work } from './Components/Work';
 import { Education } from './Components/Education';
 import { Projects } from './Components/Projects';
+import { Fun } from './Components/Fun';
 
 
 
@@ -19,7 +20,7 @@ const App: React.FC = () => {
       </div>
 
       <div className='content'>
-        <section id='app-header' className='d-flex align-items-center justify-content-between PWS'>
+        <section id='app-header' className='d-flex align-items-center justify-content-between personal-website'>
           <div>
             <h1>Hi! I'm Elizabeth, <br /> and I'm a software engineer.</h1>
             <SocialLinks />
@@ -31,17 +32,21 @@ const App: React.FC = () => {
           </div>
         </section>
 
-        <section id='work-experience-header' className='PWS'>
+        <section id='work-experience-header' className='personal-website'>
           <Work />
         </section>
 
-        <section id='projects-header' className='PWS'>
+        <section id='projects-header' className='personal-website'>
           <Projects />
         </section>
 
 
-        <section id='education-header' className='PWS'>
+        <section id='education-header' className='personal-website'>
           <Education />
+        </section>
+
+        <section id='fun-header' className='personal-website'>
+          <Fun />
         </section>
       </div>
     </div>

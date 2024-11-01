@@ -47,7 +47,7 @@ const codecademyCerts = [
   },
   {
     title: "Additional Courses",
-    description: "Topics: Python | TypeScript | Git & GitHub | SQL & PostgreSQL | HTML | Object-Oriented Programming",
+    description: "Topics: Python | TypeScript | Git & GitHub | SQL & PostgreSQL | HTML | OOP",
   },
 ];
 

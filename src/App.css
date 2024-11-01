@@ -30,7 +30,7 @@ h2 {
   color: #fff;
 }
 
-section.PWS {
+section.personal-website {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -53,5 +53,10 @@ section.PWS {
   section {
     flex-direction: column;
     text-align: center;
+  }
+  
+  #fun-header {
+    min-height: 100vh;
+    height: 100vh;
   }
 }

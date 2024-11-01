@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Projects.css";
 import jammming from "../Images/jammming.png";
+import website from "../Images/website.png";
 
 export const Projects = () => {
   return (
@@ -35,6 +36,35 @@ export const Projects = () => {
           </div>
         </div>
       </div>
+
+      <div className="card project-card">
+        <div className="row g-0">
+          <div className="col-md-4 project-image-container">
+            <img
+              src={website}
+              className="img-fluid rounded-start project-image"
+              alt="Website Project Screenshot"
+            />
+          </div>
+          <div className="col-md-8">
+            <div className="card-body">
+              <h5 className="card-title">Personal Website</h5>
+              <p className="card-text">
+              I created a responsive personal website (you're looking at it 😉) using TypeScript, React, and Bootstrap to showcase my skills and projects. This project improved my CSS expertise, as I customized components and incorporated Code.ai to enhance workflow efficiency.
+              </p>
+              <a
+                href="https://github.com/elizabethmagie/Personal-Website"
+                className="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 };

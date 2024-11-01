@@ -42,6 +42,15 @@ export const Toolbar: React.FC = () => {
           >
             EDUCATION
           </Button>
+          <Button
+            variant="secondary"
+            onClick={() => {
+              const funSection = document.getElementById('fun-header');
+              if (funSection) funSection.scrollIntoView({ behavior: 'smooth' });
+            }}
+          >
+            FUN
+          </Button>
         </ButtonGroup>
       </div>
     </div>

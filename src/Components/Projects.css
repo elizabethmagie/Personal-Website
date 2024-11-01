@@ -1,48 +1,48 @@
 /* Projects Section Styling */
 .projects-section {
-    max-width: 80%;
-    margin: 0 auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  /* Project Card Styling */
-  .project-card {
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-  }
-  
-  .project-image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-  }
-  
-  .project-image {
-    max-height: 200px;
-    object-fit: cover;
-  }
-  
-  /* Card Body Styling */
-  .card-body {
-    padding: 20px;
-    color: #333;
-  }
-  
-  .card-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  .card-text {
-    font-size: 1rem;
-    margin-bottom: 20px;
-  }
-  
-  /* Button Styling */
-  .btn {
-    font-size: 1rem;
-    padding: 10px 20px;
-  }
-  
+  max-width: 80%;
+  margin: 0 auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Project Card Styling */
+.project-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 3rem; /* Adds space between project cards */
+}
+
+.project-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.project-image {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* Card Body Styling */
+.card-body {
+  padding: 20px;
+  color: #333;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+.btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+}
