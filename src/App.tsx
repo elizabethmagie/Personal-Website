@@ -17,18 +17,18 @@ const App: React.FC = () => {
         <Toolbar />
       </div>
       <div className="content">
-        <section id="app-header" className="d-flex align-items-center justify-content-between personal-website">
-          <div>
+        <section id="app-header" className="personal-website app-header">
+          <div className='app-header-left-column'>
             <h1>
               Hi! I'm Elizabeth, <br /> and I'm a software engineer.
             </h1>
             <SocialLinks />
-            <h2 style={{ textAlign: 'left', marginLeft: '125px', marginTop: '75px' }}>
+            <h2 className='languages-and-tools'>
               Languages & Software Tools
             </h2>
             <SkillsIcons />
           </div>
-          <div>
+          <div className='app-header-right-column'>
             <CyclePhotos />
           </div>
         </section>

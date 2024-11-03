@@ -1,3 +1,9 @@
+.social-links-container {
+  display: 'flex';
+  gap: '20px'; 
+  font-size: '1.5rem';
+}
+
 .icon {
   color: white;
   margin-right: 20px;
@@ -7,8 +13,4 @@
 
 .icon:hover {
   color: #ccc;
-}
-
-.icon:first-child {
-  margin-left: 125px;
 }

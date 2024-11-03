@@ -15,9 +15,36 @@
   flex: 1;
 }
 
+.app-header {
+  display: flex;
+  padding: 0 10vw !important;
+}
+
+.app-header-left-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .languages-and-tools {
+    margin-top: 48px;
+  }
+}
+
+.app-header-right-column {
+  flex: 1;
+  align-self: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skills-icons-container {
+  display: flex;
+  gap: 20px;
+  font-size: 2rem;
+}
+
 h1 {
-  margin-right: 20px;
-  margin-left: 125px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 50px;
   color: #fff;
@@ -38,20 +65,5 @@ section.personal-website {
   padding: 20px;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-@media (max-width: 768px) {
-  h1 {
-    margin-left: 20px;
-    font-size: 1.5rem;
-  }
-
-  .grad-photo {
-    height: 400px;
-  }
-
-  section {
-    flex-direction: column;
-    text-align: center;
-  }
+  gap: 16px;
 }

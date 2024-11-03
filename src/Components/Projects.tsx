@@ -52,9 +52,9 @@ export const Projects: React.FC = () => {
             <div className="card-body">
               <h5 className="card-title">Personal Website</h5>
               <p className="card-text">
-                I created a responsive personal website (you're looking at it 😉) using TypeScript, React, and Bootstrap to 
-                showcase my skills and projects. This project improved my CSS expertise, as I customized components and 
-                incorporated Code.ai to enhance workflow efficiency.
+                I created a responsive personal website (you're looking at it 😉) using TypeScript, React, CSS, and Bootstrap to 
+                showcase my portfolio. This project strengthened my front-end expertise as I customized components for 
+                a smooth, intuitive design and integrated Cursor to streamline my workflow.
               </p>
               <a
                 href="https://github.com/elizabethmagie/Personal-Website"
