@@ -13,9 +13,7 @@ import { Fun } from './Components/Fun';
 const App: React.FC = () => {
   return (
     <div className="App">
-      <div className="toolbar-container">
-        <Toolbar />
-      </div>
+      <Toolbar />
       <div className="content">
         <section id="app-header" className="personal-website app-header">
           <div className='app-header-left-column'>

@@ -84,7 +84,7 @@ export const Fun: React.FC = () => {
           </div>
         ))}
       </div>
-      <div style={{ height: '400px' }}></div>
+      <div style={{ height: '50vh' }}></div>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { Button, ButtonGroup } from 'react-bootstrap';
 
 export const Toolbar: React.FC = () => {
   return (
-    <div className='toolbar-background'>
+    <div className='toolbar-container'>
       <div className='toolbar'>
         <ButtonGroup aria-label="Buttons">
           <Button

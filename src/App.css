@@ -1,14 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  text-align: left;
   background-color: #333435;
-}
-
-.toolbar-container {
-  width: 100%;
-  flex-shrink: 0;
-  min-height: 40px;
 }
 
 .content {
@@ -17,6 +10,7 @@
   padding: 0 10vw;
   flex: 1;
   gap: 48px;
+  height: calc(100vh - 64px) !important;
 }
 
 

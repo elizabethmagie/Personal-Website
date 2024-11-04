@@ -42,7 +42,7 @@ const formalEducationScreens = [
 const codecademyCerts = [
   {
     title: 'Computer Science Certificate',
-    description: 'Topics: Data Structures | Algorithms | Trees and Graphs | Databases | Computer Architecture',
+    description: 'Topics: Data Structures | Algorithms | Databases | Computer Architecture',
   },
   {
     title: 'Web Development Certificate',
@@ -50,7 +50,7 @@ const codecademyCerts = [
   },
   {
     title: 'Additional Courses',
-    description: 'Topics: Python | TypeScript | Git & GitHub | SQL & PostgreSQL | HTML | OOP',
+    description: 'Topics: Python | TypeScript | Git | SQL & PostgreSQL | HTML | OOP',
   },
 ];
 

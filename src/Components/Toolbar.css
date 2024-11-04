@@ -1,4 +1,7 @@
-.toolbar-background {
+.toolbar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -8,6 +11,8 @@
   padding-bottom: 10px;
   backdrop-filter: blur(10px);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  padding: 4px;
+  height: 64px;
 }
 
 .toolbar {
@@ -15,8 +20,7 @@
   max-width: max-content;
   margin: 0 auto;
   background-color: #48494c;
-  padding: 4px 20px;
-  border-radius: 20px;
+  border-radius: 32px;
   display: flex;
   gap: 15px;
   margin-top: 10px;
@@ -28,6 +32,7 @@
   border: none;
   font-size: 12px;
   cursor: pointer;
+  
 }
 
 .toolbar button:hover {
