@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useLayoutEffect, useState } from 'react';
 import './CyclePhotos.css';
 
 import grad_photo from '../Images/grad_photo.jpeg';
@@ -12,7 +12,7 @@ export const CyclePhotos: React.FC = () => {
   const [currentPhoto, setCurrentPhoto] = useState<number>(0);
   const [fade, setFade] = useState<boolean>(true);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const interval = setInterval(() => {
       setFade(false);
 
