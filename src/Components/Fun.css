@@ -1,3 +1,9 @@
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .fun-card {
   position: relative;
   width: 100%;
@@ -53,5 +59,4 @@
 .card-text {
   font-size: 14px;
   padding: 10px;
-  overflow-y: auto;
 }

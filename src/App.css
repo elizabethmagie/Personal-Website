@@ -1,16 +1,20 @@
 .App {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 64px 1fr; /* 64px for toolbar, remaining space for content */
   background-color: #333435;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.content {
+.content-container {
   display: flex;
   flex-direction: column;
   padding: 0 10vw;
   flex: 1;
   gap: 48px;
-  height: calc(100vh - 64px) !important;
+  overflow: auto;
+  background-color: #333435;
+  scroll-snap-type: y mandatory;
 }
 
 
@@ -19,6 +23,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-right: 36px;
 
   .languages-and-tools {
     margin-top: 48px;
@@ -52,8 +57,10 @@ h2 {
 }
 
 section.personal-website {
-  min-height: 100vh;
+  min-height: calc(100vh - 64px);
   display: flex;
   align-items: center;
   color: white;
+  overflow: hidden;
+  scroll-snap-align: start;
 }

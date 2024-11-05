@@ -14,7 +14,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <Toolbar />
-      <div className="content">
+      <div className="content-container">
         <section id="app-header" className="personal-website app-header">
           <div className='app-header-left-column'>
             <h1>
