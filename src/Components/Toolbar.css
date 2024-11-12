@@ -24,7 +24,7 @@
   font-size: 12px;
   cursor: pointer;
   border-radius: 32px;
-  width: 128px;
+  max-width: 128px;
 }
 
 .toolbar button:hover {

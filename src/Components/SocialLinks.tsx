@@ -4,7 +4,7 @@ import './SocialLinks.css';
 
 export const SocialLinks: React.FC = () => {
   return (
-    <div className='social-links-container'>
+    <div className="social-links-container">
       <a
         href="https://www.linkedin.com/in/elizabeth-magie/"
         target="_blank"

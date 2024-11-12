@@ -1,6 +1,6 @@
 .App {
   display: grid;
-  grid-template-rows: 64px 1fr; /* 64px for toolbar, remaining space for content */
+  grid-template-rows: 64px 1fr;
   background-color: #333435;
   height: 100vh;
   overflow: hidden;
@@ -9,12 +9,11 @@
 .content-container {
   display: flex;
   flex-direction: column;
-  padding: 0 10vw;
+  padding: 0 10vw 64px;
   flex: 1;
-  gap: 48px;
   overflow: auto;
   background-color: #333435;
-  scroll-snap-type: y mandatory;
+  height: 100%;
 }
 
 
@@ -61,6 +60,15 @@ section.personal-website {
   display: flex;
   align-items: center;
   color: white;
-  overflow: hidden;
-  scroll-snap-align: start;
+}
+
+@media (max-width: 768px) {
+  section.personal-website {
+    min-height: auto;
+    padding: 16px 0;
+  }
+  
+  .content-container {
+    padding: 0 5vw; 
+  }
 }

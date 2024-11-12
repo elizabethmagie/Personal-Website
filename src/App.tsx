@@ -16,17 +16,17 @@ const App: React.FC = () => {
       <Toolbar />
       <div className="content-container">
         <section id="app-header" className="personal-website app-header">
-          <div className='app-header-left-column'>
+          <div className="app-header-left-column">
             <h1>
               Hi! I'm Elizabeth, <br /> and I'm a software engineer.
             </h1>
             <SocialLinks />
-            <h2 className='languages-and-tools'>
+            <h2 className="languages-and-tools">
               Languages & Software Tools
             </h2>
             <SkillsIcons />
           </div>
-          <div className='app-header-right-column'>
+          <div className="app-header-right-column">
             <CyclePhotos />
           </div>
         </section>
