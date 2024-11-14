@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Personal-Website/static/css/main.ef5f74e5.css",
+    "main.js": "/Personal-Website/static/js/main.673bde0b.js",
+    "static/js/453.253ccfac.chunk.js": "/Personal-Website/static/js/453.253ccfac.chunk.js",
+    "static/media/cornell.jpg": "/Personal-Website/static/media/cornell.a06983e9df67d4f86961.jpg",
+    "static/media/ski.jpg": "/Personal-Website/static/media/ski.44d4c1c0fe033d1002a3.jpg",
+    "static/media/golf_photo.jpg": "/Personal-Website/static/media/golf_photo.505ea0327bb49bca68f1.jpg",
+    "static/media/ski2.jpg": "/Personal-Website/static/media/ski2.660487a0d45fe8b9dd02.jpg",
+    "static/media/golf2.jpg": "/Personal-Website/static/media/golf2.10f289d8b711b3369c95.jpg",
+    "static/media/tg.jpg": "/Personal-Website/static/media/tg.8c8a0d58729cd6483011.jpg",
+    "static/media/half_dome.jpg": "/Personal-Website/static/media/half_dome.d49cdf51efc1f232a02c.jpg",
+    "static/media/peru.jpg": "/Personal-Website/static/media/peru.094c8663a7bc9f84348d.jpg",
+    "static/media/mm.jpg": "/Personal-Website/static/media/mm.6480bb48cadefb0fbbcf.jpg",
+    "static/media/mcmullen.jpg": "/Personal-Website/static/media/mcmullen.f94efba4f389725f8dff.jpg",
+    "static/media/travel.jpg": "/Personal-Website/static/media/travel.e46a1f20fb2c916b6310.jpg",
+    "static/media/EIA.jpg": "/Personal-Website/static/media/EIA.be024357c13b9cfd1498.jpg",
+    "static/media/davis_logo.png": "/Personal-Website/static/media/davis_logo.07ed916c55c7cac5f879.png",
+    "static/media/jammming.png": "/Personal-Website/static/media/jammming.e3ed8ee24f6777928af0.png",
+    "static/media/grad_photo.jpeg": "/Personal-Website/static/media/grad_photo.08077e49cf1a8c964316.jpeg",
+    "static/media/solar_logo.png": "/Personal-Website/static/media/solar_logo.04c15400bf402aa761d6.png",
+    "static/media/cal_logo.png": "/Personal-Website/static/media/cal_logo.1030d1541f9c4c94ce2f.png",
+    "static/media/website.png": "/Personal-Website/static/media/website.759add4829ce52ead55b.png",
+    "static/media/stanford_logo.jpg": "/Personal-Website/static/media/stanford_logo.23dd0a07e01904b8e0d8.jpg",
+    "index.html": "/Personal-Website/index.html",
+    "main.ef5f74e5.css.map": "/Personal-Website/static/css/main.ef5f74e5.css.map",
+    "main.673bde0b.js.map": "/Personal-Website/static/js/main.673bde0b.js.map",
+    "453.253ccfac.chunk.js.map": "/Personal-Website/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef5f74e5.css",
+    "static/js/main.673bde0b.js"
+  ]
+}
