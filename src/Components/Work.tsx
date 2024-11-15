@@ -65,7 +65,7 @@ export const Work: React.FC = () => {
   const [selectedJob, setSelectedJob] = useState(jobsData[0]);
 
   return (
-    <div>
+    <div className="work-experience">
       <h2 className="text-center mb-4">Work Experience</h2>
       <div className="work-container">
         <div className="work-header">
